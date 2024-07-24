@@ -1,19 +1,7 @@
 
 
 
-resource "aws_vpc" "dep1" {
 
-  cidr_block = var.var_cidr
-
-  tags = {
-
-    "Name" = var.var_vpcname
-
-  }
-
-  
-
-}
 
 
 
